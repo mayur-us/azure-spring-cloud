@@ -1,5 +1,6 @@
 package com.lending.everest.cloud.microservices.limitsservice;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
@@ -7,7 +8,9 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties("limits-service")
 public class Configuration {
 	
+	@Value("${limits-service.minimum:0}")
 	private int minimum;
+	@Value("${limits-service.maximum:10}")
 	private int maximum;
 
 	public void setMinimum(int minimum) {

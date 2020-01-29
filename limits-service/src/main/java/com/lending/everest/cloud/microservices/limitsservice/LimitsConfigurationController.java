@@ -2,12 +2,14 @@ package com.lending.everest.cloud.microservices.limitsservice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.lending.everest.cloud.microservices.limitsservice.bean.LimitConfiguration;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 @RestController
+@RequestMapping(path = "/limits-service")
 public class LimitsConfigurationController {
 
 	@Autowired
