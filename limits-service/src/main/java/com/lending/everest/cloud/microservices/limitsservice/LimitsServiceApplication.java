@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.client.SpringCloudApplication;
 
-//@SpringBootApplication
-@SpringCloudApplication
+@SpringBootApplication
+//@SpringCloudApplication
 //@EnableHystrix
 public class LimitsServiceApplication {
 	public static void main(String[] args) {
