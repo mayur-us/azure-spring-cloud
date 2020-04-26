@@ -13,7 +13,7 @@
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
             <property name="javax.persistence.jdbc.url"
-                      value="jdbc:sqlserver://lending-flod.database.windows.net:1433;DatabaseName=MUMDB_EVEREST"/>
+                      value="jdbc:sqlserver://lendingflod.database.windows.net:1433;DatabaseName=MUMDB_EVEREST"/>
                       
             <property name="javax.persistence.jdbc.user" value="root1"/>
             <property name="javax.persistence.jdbc.password" value="Lending$"/>

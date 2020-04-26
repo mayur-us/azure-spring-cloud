@@ -63,7 +63,7 @@
 
                 <div class="d-flex justify-content-between">
                     <button type="submit" class="btn btn-primary">${title}</button>
-                    <a href="/" class="btn btn-warning">Home Page</a>
+                    <a href="/SpringMVCHibernateMSSQL/" class="btn btn-warning">Home Page</a>
                 </div>
 
             </form>

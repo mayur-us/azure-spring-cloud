@@ -24,6 +24,7 @@ public class HomeController {
     }
 
     @RequestMapping(value = {"/", "/home", "/home/index"})
+//    @RequestMapping(value = {"home/index"})
     public String index(Model model) {
         List<Customer> customers = _customerService.getAll();
         model.addAttribute("customers", customers);
